@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-family: sans-serif;
+}
+
+.contain {
+    height: 800px;
+    width: 100%;
+    background-color: white;
+    /*display: flex;
+    justify-content: space-between;*/
+}
+
+.left {
+    height: 800px;
+    width: 33%;
+    background-color: #8295E8;
+    float: left;
+
+}
+.middle {
+    height: 800px;
+    width: 33%;
+    background-color: #82E8CF;
+    float: left;
+}
+.right {
+    height: 800px;
+    width: 34%;
+    background-color: #93E882;
+    float: left;
+}
+.bottom {
+    height: 75px;
+    width: 34%;
+    background-color: red;
+    color: white;
+    /*overflow: hidden;*/
+    position: fixed;
+    bottom: 0;
+    left: 66%;
+    text-align:center;
+    padding: 40px;
+
+}
